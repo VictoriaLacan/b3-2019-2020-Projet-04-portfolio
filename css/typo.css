@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Italiana&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500&display=swap');
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Italiana', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 1.5em;
+  font-family: 'Italiana', serif;
+  color: black;
+}
+
+h2{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+
+}
+
+ul {
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  font-weight: lighter;
+
+}
+
+a{
+  font-family: 'Raleway', sans-serif;
+color: blue;
+}
+
+#contact {
+  font-family: 'Playfair Display', serif;
+  }
