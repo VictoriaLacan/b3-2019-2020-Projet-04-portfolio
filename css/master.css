@@ -139,6 +139,7 @@ header {
   flex-basis: 320px;
   flex-grow: 1;
   flex-shrink: 1;
+  text-align: center;
 }
 
 
@@ -175,7 +176,7 @@ header {
 #about img {
   width: 80%;
   height:400px;
-  object-fit: none;
+  object-fit: contain;
 }
 
 .description{
