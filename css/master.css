@@ -139,6 +139,8 @@ header {
   flex-shrink: 1;
 }
 
+
+
 #photo {
   margin-left: 30px;
   margin-top: 50px;
@@ -164,6 +166,9 @@ header {
 #about {
     background: #7693A6;
 
+}
+#about h1 {
+  object-fit: none;
 }
 
 #contact {
