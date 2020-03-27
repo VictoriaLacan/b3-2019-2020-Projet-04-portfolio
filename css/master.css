@@ -1,7 +1,11 @@
 body {
-  background: #DFE7F2 ;
-  position: relative;
+  /*background: #DFE7F2 ;
+  position: relative;*/
+  background : url('images/dots.png') top center;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 
 section {
   min-height: 98vh;
@@ -112,28 +116,29 @@ header {
 
 
 
-
 #projet img {
   justify-content: center;
 }
 
 
-
-
-
 #project {
   margin-left: 30px;
   margin-top: 50px;
+
 }
 
 .project-feature-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-right: 2em;
+  margin-left: 2em;
+
 }
 
 .project-feature {
-  border: 1px solid white;
+  border: 1px solid grey;
+  background: white;
   marging : 1em;
   padding: 1em;
   flex-basis: 320px;
@@ -179,6 +184,10 @@ header {
   object-fit: contain;
 }
 
+#about p {
+margin-right: 100px;
+
+}
 .description{
   display: flex;
   justify-content: center;
