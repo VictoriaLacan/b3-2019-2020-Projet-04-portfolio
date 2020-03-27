@@ -13,8 +13,7 @@ font-family: 'Playfair Display', serif;
 font-family: 'Raleway', sans-serif;
 */
 
-body {
-}
+
 
 h1 {
   font-size: 3em;
@@ -40,6 +39,11 @@ ul {
 a{
   font-family: 'Raleway', sans-serif;
 color: blue;
+}
+
+#about p {
+  font-family: 'Italiana', serif;
+
 }
 
 #contact {
