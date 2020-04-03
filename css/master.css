@@ -134,6 +134,7 @@ header {
   margin-right: 2em;
   margin-left: 2em;
 
+
 }
 
 .project-feature {
@@ -166,11 +167,10 @@ header {
   flex-grow: 1;
 }
 
+.para-photo {
+  margin-left: 500px;
+}
 
-/*.about {
-  margin-left: 30px;
-  margin-top: 50px;
-}*/
 
 #about {
     background: #7693A6;
@@ -239,10 +239,10 @@ h3 {
   border: 1px solid black;
   background: white;
   justify-content: space-around;
+  align-items: center;
 }
 
-
-  .part2{
+.part2{
     bottom: right;
     margin-left: 50px;
     text-align: justify;
@@ -258,7 +258,7 @@ h3 {
     justify-content: space-around;
   }
 
-  .part3 {
+.part3 {
     bottom: right;
     margin-right: 50px;
     text-align: justify;
