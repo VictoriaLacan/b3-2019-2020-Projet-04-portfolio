@@ -225,52 +225,88 @@ h3 {
 }
 
 
+
+
 .part1{
-  bottom: right;
-  margin-right: 50px;
   text-align: justify;
-  margin-left: 500px;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1000px;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
-  border: 1px solid black;
+  border: 1px solid white;
   background: white;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
+
+.part1 figure {
+  flex-basis: 30%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 40px;
+}
+
+.block-content{
+  text-align: center;
+}
+
+
+
+
 .part2{
-    bottom: right;
-    margin-left: 50px;
-    text-align: justify;
-    margin-right: 500px;
-    max-width: 1000px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    border: 1px solid black;
-    background: white;
-    justify-content: space-around;
-  }
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  border: 1px solid white;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-.part3 {
-    bottom: right;
-    margin-right: 50px;
-    text-align: justify;
-    margin-left: 500px;
-    max-width: 1000px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    border: 1px solid black;
-    background: white;
-    justify-content: space-around;
 
-  }
+.part2 figure {
+  flex-basis: 30%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 40px;
+}
+
+
+
+.part3{
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  border: 1px solid white;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.part3 figure {
+  flex-basis: 30%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 40px;
+}
