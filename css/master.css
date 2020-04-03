@@ -27,11 +27,11 @@ header {
   margin-left: 30px;
 }
 
+
 /*nav ul{
   display : flex;
   justify-content: space-evenly;
 }*/
-
 
 
 
@@ -147,8 +147,6 @@ header {
   text-align: center;
 }
 
-
-
 #photo {
   margin-left: 30px;
   margin-top: 50px;
@@ -185,14 +183,14 @@ header {
 }
 
 #about p {
-margin-right: 100px;
+margin-right: 100px;}
 
-}
 .description{
   display: flex;
   justify-content: center;
 
 }
+
 
 #contact {
   margin-left: 30px;
@@ -205,3 +203,65 @@ margin-right: 100px;
   font-size: 20px;
   line-height: 20pt;
 }
+
+
+
+
+h3 {
+  margin-left: 30px;
+  margin-top: 50px;
+  padding-top: 40px;
+  text-align : center;
+  font-size: 40px;
+}
+
+
+.part1{
+  bottom: right;
+  margin-right: 50px;
+  text-align: justify;
+  margin-left: 500px;
+  max-width: 1000px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  border: 1px solid black;
+  background: white;
+  justify-content: space-around;
+}
+
+
+  .part2{
+    bottom: right;
+    margin-left: 50px;
+    text-align: justify;
+    margin-right: 500px;
+    max-width: 1000px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    border: 1px solid black;
+    background: white;
+    justify-content: space-around;
+  }
+
+  .part3 {
+    bottom: right;
+    margin-right: 50px;
+    text-align: justify;
+    margin-left: 500px;
+    max-width: 1000px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    border: 1px solid black;
+    background: white;
+    justify-content: space-around;
+
+  }
