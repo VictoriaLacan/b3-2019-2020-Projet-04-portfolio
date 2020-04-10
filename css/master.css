@@ -143,7 +143,7 @@ header {
 }
 
 .project-feature {
-  border: 1px solid yellow;
+  border: 1px solid white;
   background: white;
   marging : 1em;
   padding: 1em;
@@ -170,6 +170,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
   background: white;
+  padding-bottom: 2em;
 }
 
 .photo-feature{
@@ -184,24 +185,26 @@ header {
 }
 
 
-#about {
-    background: #7693A6;
+#about h1{
     text-align: center;
     padding-top: 30px;
 }
 
+.about{
+
+      padding-top: 2em;
+      padding-bottom: 2em;
+      padding-left: 4em;
+      padding-right: 2em;
+}
 
 
 #about img {
   width: 80%;
   height:400px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
-#about h1{
-  background-color: yellow;
-  justify-content: center;
-}
 
 #about p {
 margin-right: 100px;
@@ -211,6 +214,7 @@ padding-top: 20px;}
 .description{
   display: flex;
   justify-content: center;
+  align-items: center;
 
 }
 
