@@ -9,7 +9,7 @@ body {
 
 section {
   min-height: 98vh;
-  border-bottom: 1px solid white;
+  /*border-bottom: 1px solid white;*/
 }
 
 header h1{
@@ -126,6 +126,11 @@ header {
   margin-top: 50px;
 
 }
+#project h1{
+  background: yellow;
+  max-width: 200px;
+}
+
 
 .project-feature-content {
   display: flex;
@@ -138,10 +143,12 @@ header {
 }
 
 .project-feature {
-  border: 1px solid white;
+  border: 1px solid yellow;
   background: white;
   marging : 1em;
   padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
   flex-basis: 320px;
   flex-grow: 1;
   flex-shrink: 1;
@@ -151,8 +158,13 @@ header {
 #photo {
   margin-left: 30px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
+#photo h1{
+  background: yellow;
+  max-width: 300px;
+}
 .photo-feature-content {
   display: flex;
   flex-wrap: wrap;
@@ -162,13 +174,13 @@ header {
 
 .photo-feature{
   border: 1px solid white;
-  marging : 1em;
   padding: 1em;
   flex-grow: 1;
+
 }
 
 .para-photo {
-  margin-left: 500px;
+  text-align: center;
 }
 
 
@@ -178,10 +190,17 @@ header {
     padding-top: 30px;
 }
 
+
+
 #about img {
   width: 80%;
   height:400px;
   object-fit: contain;
+}
+
+#about h1{
+  background-color: yellow;
+  justify-content: center;
 }
 
 #about p {
@@ -282,6 +301,7 @@ h3 {
   flex-grow: 1;
   flex-shrink: 0;
   padding: 40px;
+  flex-wrap: wrap;
 }
 
 
