@@ -126,10 +126,7 @@ header {
   margin-top: 50px;
 
 }
-#project h1{
-  background: yellow;
-  max-width: 200px;
-}
+
 
 
 .project-feature-content {
@@ -161,10 +158,7 @@ header {
   margin-bottom: 50px;
 }
 
-#photo h1{
-  background: yellow;
-  max-width: 300px;
-}
+
 .photo-feature-content {
   display: flex;
   flex-wrap: wrap;
@@ -186,8 +180,22 @@ header {
 
 
 #about h1{
-    text-align: center;
-    padding-top: 30px;
+     text-align: center;
+
+  /*  max-width: 300px;
+     padding-top: 30px;
+    margin: 0 auto;*/
+
+
+}
+
+h1 span{
+     background: yellow;
+}
+
+h3 span{
+  background: yellow;
+
 }
 
 .about{
